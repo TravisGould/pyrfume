@@ -421,7 +421,7 @@ title="Print to PDF"
 </div>
 </div>
 <p>One of the major virtues of <code class="docutils literal notranslate"><span class="pre">Pyrfume</span></code> is that it allows for the straightforward comparison of experimental results across species, measurement types, and experimental systems. Here, we walk the user through an example of such a cross-modal analysis.</p>
-<p>Suppose we are interested in the question of whether human odor categories manifest as discrete patterns of glomerular activity. The data for addressing this directly do not exist, but it is certainly the case that plenty of experiments have been done where both mice and humans have smelled the same compounds. <code class="docutils literal notranslate"><span class="pre">Pyrfume</span></code> allows us to quickly compare human psychophysics measurements to mouse glomerular imaging results for sets of common test odorants – an analysis that would otherwise be cumbersome and time consuming.</p>
+<p>Suppose we are interested in the question of whether human odor categories correspond to discrete patterns of glomerular activity. The data for addressing this directly do not exist, but it is certainly the case that plenty of experiments have been done where both mice and humans have smelled the same compounds. <code class="docutils literal notranslate"><span class="pre">Pyrfume</span></code> allows us to quickly compare human psychophysics measurements to mouse glomerular imaging results for sets of common test odorants – an analysis that would otherwise be cumbersome and time consuming.</p>
 <p>In our case study, we will compare experimental results obtained from the classic <a class="reference external" href="https://www.astm.org/ds61-eb.html">Dravnieks (1985)</a> study of human odor qualities, as well as <a class="reference external" href="https://www.nature.com/articles/s41593-019-0442-z">Chae et al’s (2019)</a> glomerular imaging study.</p>
 <section id="fetching-data-and-identifying-common-stimuli">
 <h2><span class="section-number">6.1. </span>Fetching data and identifying common stimuli<a class="headerlink" href="#fetching-data-and-identifying-common-stimuli" title="Permalink to this headline">#</a></h2>
@@ -597,7 +597,7 @@ title="Print to PDF"
 </table>
 </div></div></div>
 </div>
-<p>An example column entry for the ‘Subject’ column is:</p>
+<p>An example entry for the ‘Subject’ column is:</p>
 <p><strong>G_1_left_01</strong></p>
 <p>Which indicates that the data are:</p>
 <ul class="simple">
@@ -1161,7 +1161,7 @@ title="Print to PDF"
 </section>
 <section id="inspection-of-the-data-and-co-clustering">
 <h2><span class="section-number">6.3. </span>Inspection of the data, and co-clustering<a class="headerlink" href="#inspection-of-the-data-and-co-clustering" title="Permalink to this headline">#</a></h2>
-<p>Co-clustering involves a permutation of rows and columns to reveal block structure in a matrix, and therefore presumed natural groupings of examples and features. In the case of Dravnieks, for example, co-clustering would reveal for us whether there are non-overlapping subsets of chemicals for which subsets of chemical descriptors apply uniquely. An example of co-clustering the Dravnieks example can be found in <a class="reference external" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073289">Castro et al, 2013</a>.</p>
+<p>Co-clustering involves a permutation of rows and columns to reveal block structure in a matrix, and therefore presumed natural groupings of examples and features. In the case of Dravnieks, for example, co-clustering would reveal whether there are non-overlapping subsets of chemicals for which subsets of chemical descriptors apply uniquely. An example of co-clustering the Dravnieks data can be found in <a class="reference external" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073289">Castro et al, 2013</a>.</p>
 <p>Once we find the row (chemical ID) permutations on Dravnieks, the same row permutations can be applied to Chae, to see if natural groupings among glomeruli emerge.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
